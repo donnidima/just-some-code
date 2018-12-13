@@ -49,14 +49,6 @@ public class AutoTest {
         Assert.assertEquals(subject, verifyString2);
     }
 
-    public void GoodBye(){
-	System.out.println("Goodbye everyone!");
-    }
-
-    @AfterClass
-    public static void CLose()
-    {
-        driver.quit();
-    }
+    Let's imagine that you are watching some code here right now :)
 }
 
