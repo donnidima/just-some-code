@@ -61,6 +61,10 @@ public class AutoTest {
         }
     }
 
+    public void Hello() {
+	System.out.println("Hello everyone!");
+    }
+
     @AfterClass
     public static void CLose()
     {
