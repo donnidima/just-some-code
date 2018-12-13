@@ -49,20 +49,8 @@ public class AutoTest {
         Assert.assertEquals(subject, verifyString2);
     }
 
-    public void checkingContent(){
-        driver.findElement(By.cssSelector("#row_donni\\2e dima-" +
-                "1538819817-3583517 > td:nth-child(4)")).click();
-        try
-        {
-            driver.findElement(By.xpath("/html/body/div"));
-        } catch(NoSuchElementException e)
-        {
-            System.out.print("Try again, the element was not found");
-        }
-    }
-
-    public void Hello() {
-	System.out.println("Hello everyone!");
+    public void GoodBye(){
+	System.out.println("Goodbye everyone!");
     }
 
     @AfterClass
